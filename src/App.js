@@ -1,8 +1,18 @@
-
+import {Pallete, NavBar} from './Components/Components'
+import { useState } from 'react'
 
 const App = () => {
+    
+    const generatePallete = () => {
+        console.log("GeneratingPallete")
+    }
+
     return (
-        <h1>Hi</h1>
+        <>
+        <NavBar generatePallete={generatePallete}/>
+        <Pallete />
+        </>
+
     )
 }
 
