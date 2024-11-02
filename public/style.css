@@ -1,0 +1,60 @@
+body, html, #app {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.palletContainer {
+    flex: 1;
+}
+
+.navBarContainer {
+    height: 50px;
+    padding: .5rem;    
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(198, 198, 198);
+}
+
+.palleteNumberSelectorIcon {
+    height: 2.2rem;
+    width: 2.2rem;
+    transition: .2s;
+    cursor: pointer;
+    padding: .2rem;
+    box-sizing: border-box;
+}
+
+.palleteNumberSelectorIcon:hover {
+    background-color: rgb(215, 215, 215);
+    border-radius: 7px;
+    transition: .2s;
+
+}
+
+.plusIcon {
+    height: 100%;
+}
+
+.generatePalletButton {
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    padding: .2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.generatePalletButton:hover {
+    background-color: rgb(215, 215, 215);
+    border-radius: 7px;
+    transition: .2s;
+}
