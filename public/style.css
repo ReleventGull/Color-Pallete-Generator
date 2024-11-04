@@ -58,3 +58,10 @@ body, html, #app {
     border-radius: 7px;
     transition: .2s;
 }
+
+.palletContainer {
+    display: flex;
+}
+.palleteSlide {
+    flex: 1
+}

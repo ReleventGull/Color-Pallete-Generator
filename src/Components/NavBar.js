@@ -1,6 +1,6 @@
 
 
-const NavBar = ({generatePallete}) => {
+const NavBar = ({generatePallete, addPallete}) => {
     return (
         <div className="navBarContainer">
                 <div className="palleteNumberSelectorIcon">
