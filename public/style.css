@@ -2,9 +2,13 @@ body, html, #app {
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100%
+    width: 100%;
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
+  
 #app {
     display: flex;
     flex-direction: column;
